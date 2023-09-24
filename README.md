@@ -30,7 +30,6 @@ Press ctrl+x and then press Y, press Enter to save and exit, and then open the h
 
 ```
 sudo /opt/nvidia/jetson-io/jetson-io.py
-
 ```
 
 as shown
@@ -59,5 +58,4 @@ The Python driver provided by this product currently supports a baud rate of 500
 ```
 cd RS485_CAN_for_JetsonNano_Code
 sudo python cantest.py
-
 ```
