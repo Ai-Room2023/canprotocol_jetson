@@ -27,7 +27,6 @@ add a line
 spidev
 
 ```
-
 Press ctrl+x and then press Y, press Enter to save and exit, and then open the hardware SPI:
 
 ```
