@@ -53,9 +53,9 @@ After restarting, ls /dev/spidev* can see the device number
 <h3> CAN Test </h3>
 
 Please connect the hardware first, and then run the program. As SPI to CAN and the default crystal oscillator is 8M, the temporary baud rate is 500Kbps.
-The Python driver provided by this product currently supports a baud rate of 500Kbps (the default is 500Kbps), pay attention to select the baud rate of the other end of the communication:
+The Python driver provided by this product currently supports a baud rate of 500Kbps (the default is 125Kbps, and you can change this in line 471 MCP2515.py), pay attention to select the baud rate of the other end of the communication:
 
 ```
-cd RS485_CAN_for_JetsonNano_Code
+cd canprotocol_jetson
 sudo python cantest.py
 ```
