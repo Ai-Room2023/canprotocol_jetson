@@ -7,13 +7,11 @@ Using can protocol in Jetson Nano with waveshare jetson nano can shield
 
 <h3> install library </h3>
 ```
-
 sudo apt-get install minicom 
 sudo apt-get install python-pip nano
 sudo pip install pyserial
 sudo pip install spidev==3.1
 ```
-
 
 <h3> enable SPI </h3>
 After executing the above, add in the following file:
